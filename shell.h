@@ -25,12 +25,12 @@ typedef struct info{
 	char **tokens;
 	char **env;
 	char **alias_list;
-} data_of_program
+} data_of_program;
 
 typedef struct builtins
 {
 	char *builtin;
-	int (function)(data_of_program *data);
+	int (*function)(data_of_program *data);
 } builtins;
 
 

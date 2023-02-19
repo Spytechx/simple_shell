@@ -37,13 +37,13 @@ void handle_ctrl_c(int opr UNUSED)
 }
 
 /**
- * initialize_data - inicialize the struct with the info of the program
+ * inicialize_data - inicialize the struct with the info of the program
  * @data: pointer to the structure of data
  * @argv: array of arguments pased to the program execution
  * @env: environ pased to the program execution
  * @argc: number of values received from the command line
  */
-void initialize_data(data_of_program *data, int argc, char *argv[], char **env)
+void inicialize_data(data_of_program *data, int argc, char *argv[], char **env)
 {
 	int i = 0;
 
@@ -85,11 +85,11 @@ void initialize_data(data_of_program *data, int argc, char *argv[], char **env)
 	}
 }
 /**
- * infinito - its a infinite loop that shows the prompt
+ * sisifo - its a infinite loop that shows the prompt
  * @prompt: prompt to be printed
  * @data: its a infinite loop that shows the prompt
  */
-void infinito(char *prompt, data_of_program *data)
+void sisifo(char *prompt, data_of_program *data)
 {
 	int error_code = 0, string_len = 0;
 
